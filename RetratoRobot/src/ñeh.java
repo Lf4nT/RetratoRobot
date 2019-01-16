@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class ñeh {
 
 	static Scanner in = new Scanner(System.in);
-	static String[][] rasgos = { 
-			{ "pelo", "WWWWWWWWW", "\\\\\\//////", "|\"\"\"\"\"\"\"|", "|||||||||" },
+	static String[][] rasgos = { { "pelo", "WWWWWWWWW", "\\\\\\//////", "|\"\"\"\"\"\"\"|", "|||||||||" },
 			{ "ojos", "|  O O  |", "|-(· ·)-|", "|-(o o)-|", "|  \\ /  |" },
 			{ "nariz", "@   J   @", "{   \"   }", "[   j   ]", "<   -   >" },
 			{ "boca", "|  ===  |", "|   -   |", "|  ___  |", "|  ---  |" },
