@@ -39,6 +39,26 @@ public class RetratoRobot {
 		this.barbilla = rasgos[4][barbilla];
 	}
 
+	public void setRasgo(int faccion, int rasgo) {
+		switch (faccion) {
+		case 0:
+			pelo = rasgos[0][rasgo];
+			break;
+		case 1:
+			ojos = rasgos[1][rasgo];
+			break;
+		case 2:
+			nariz = rasgos[2][rasgo];
+			break;
+		case 3:
+			boca = rasgos[3][rasgo];
+			break;
+		case 4:
+			barbilla = rasgos[4][rasgo];
+			break;
+		}
+	}
+
 	@Override
 	public String toString() {
 		return pelo + System.getProperty("line.separator") + ojos + System.getProperty("line.separator") + nariz
