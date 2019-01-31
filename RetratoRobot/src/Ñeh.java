@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ñeh {
+public class Ñeh {
 
 	static Scanner in = new Scanner(System.in);
 	static String[][] rasgos = { { "pelo", "WWWWWWWWW", "\\\\\\//////", "|\"\"\"\"\"\"\"|", "|||||||||" },
